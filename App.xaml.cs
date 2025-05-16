@@ -40,5 +40,11 @@ namespace PrismDemo
             base.ConfigureModuleCatalog(moduleCatalog);
             moduleCatalog.AddModule<ModuleAModule>();
         }
+        protected override void ConfigureViewModelLocator()
+        {
+            base.ConfigureViewModelLocator();
+
+       
+        }
     }
 }
